@@ -79,7 +79,8 @@ def adding_matz
         }
      }
  programmer_hash[:yukihiro_matsumoto] = {}
- puts programmer_hash
+ programmer_hash[:yukihiro_matsumoto][:known_for] = ""
+ 
     
 end
 
@@ -122,4 +123,3 @@ def adding_to_dennis
      }
 
 end
-adding_matz
