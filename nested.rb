@@ -62,7 +62,7 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-
+programmer_hash[:yukihiro_matsumoto] = {}
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -78,10 +78,8 @@ def adding_matz
           :languages => ["C"]
         }
      }
- programmer_hash[:yukihiro_matsumoto] = {}
  
- 
-    
+
 end
 
 def changing_alan
